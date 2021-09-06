@@ -11,8 +11,7 @@ export default function Home() {
         <p className={styles.description}>
           Created by
           <code className={styles.code}>Mookky ٩꒰｡•◡•｡꒱۶♥</code>
-        </p>
-
+        </p>        
         <div className={styles.grid}>
           <a href="restaurant" className={styles.card}>
             <h2>Restaurants &rarr;</h2>
@@ -27,6 +26,11 @@ export default function Home() {
           <a href="cafe" className={styles.card}>
             <h2>Café &rarr;</h2>
             <p>Discover Cafés</p>
+          </a>
+
+          <a href="member" className={styles.card}>
+            <h2>Member List &rarr;</h2>
+            <p>ใครเทเป็น__</p>
           </a>
 
           {/* <a
