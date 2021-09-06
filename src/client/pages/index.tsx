@@ -11,7 +11,7 @@ export default function Home() {
         <p className={styles.description}>
           Created by
           <code className={styles.code}>Mookky ٩꒰｡•◡•｡꒱۶♥</code>
-        </p>        
+        </p>
         <div className={styles.grid}>
           <a href="restaurant" className={styles.card}>
             <h2>Restaurants &rarr;</h2>

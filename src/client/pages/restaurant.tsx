@@ -23,6 +23,15 @@ const Restaurant: NextPage = () => {
           allowFullScreen={true}
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         ></iframe>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FAfterYum%2Fposts%2F987196532013540&width=750&show_text=true&appId=197485464188864&height=926"
+          width="750"
+          height="926"
+          style={{ border: 'none', overflow: 'hidden' }}
+          scrolling="no"
+          frameBorder="0"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        ></iframe>
       </Container>
     </LayoutTemplate>
   )

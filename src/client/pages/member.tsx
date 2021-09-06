@@ -9,18 +9,19 @@ const Member: NextPage = () => {
         <h1 className={styles.title}>Member List (Final!)</h1>
       </main>
       <Container>
-        <ul>
-          <li>Petch</li>
-          <li>Meow</li>
-          <li>Pa</li>
-          <li>Mookky</li>
-          <li>Mean</li>
-          <li>Kie</li>
-          <li>Chaii</li>
-          <li>Now</li>
-          <li>Taeto</li>
-          <li>Boom</li>
-        </ul>
+        <p style={{ textAlign: 'center', fontSize: '2rem' }}>
+          Petch (Leader) <br />
+          Meow (อาหาร?) <br />
+          Pa (เห) <br />
+          Mookky (ที่พัก) <br />
+          Mean (Entertainer) <br />
+          Kie <br />
+          Chaii <br />
+          Now (Entertainer) <br />
+          Taeto (Entertainer) <br />
+          Boom <br />
+          Ice ( \w Online Meeting)
+        </p>
       </Container>
     </LayoutTemplate>
   )
