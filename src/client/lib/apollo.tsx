@@ -6,7 +6,6 @@ import { InMemoryCache } from 'apollo-cache-inmemory'
 
 let apolloClient = null
 
-
 /**
  * Always creates a new apollo client on the server
  * Creates or reuses apollo client in the browser.
@@ -115,7 +114,6 @@ const initApolloClient = (initialState) => {
 
 //   return WithApollo
 // }
-
 
 /**
  * Creates and configures the ApolloClient

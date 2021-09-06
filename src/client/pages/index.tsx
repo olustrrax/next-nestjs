@@ -6,9 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Engineer Trip! (sea ver.)
-        </h1>
+        <h1 className={styles.title}>Engineer Trip! (sea ver.)</h1>
 
         <p className={styles.description}>
           Created by
@@ -26,10 +24,7 @@ export default function Home() {
             <p>Find the accommodation</p>
           </a>
 
-          <a
-            href="cafe"
-            className={styles.card}
-          >
+          <a href="cafe" className={styles.card}>
             <h2>Café &rarr;</h2>
             <p>Discover Cafés</p>
           </a>
@@ -44,7 +39,6 @@ export default function Home() {
             </p>
           </a> */}
         </div>
-
       </main>
 
       {/* <footer className={styles.footer}>

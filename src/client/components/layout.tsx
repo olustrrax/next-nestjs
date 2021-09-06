@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.css'
 import layoutStyle from '../styles/Layout.module.css'
 import Head from 'next/head'
 
-
 export interface IDiv {
   display?: string | undefined
   width?: string | undefined
@@ -30,7 +29,7 @@ export const LayoutTemplate = (props: any) => {
   return (
     <div>
       <Head>
-        <title>{ props.title }</title>
+        <title>{props.title}</title>
       </Head>
       <Div padding="1em 0">{props.children}</Div>
     </div>

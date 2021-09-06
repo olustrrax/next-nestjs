@@ -20,8 +20,10 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
+    "pages",
+    "components",
     "**/*.tsx",
+    "next.config.js",
   ],
   "exclude": [
     "node_modules"
