@@ -11,15 +11,15 @@ const Member: NextPage = () => {
       <Container>
         <p style={{ textAlign: 'center', fontSize: '2rem' }}>
           Petch (Leader) <br />
-          Meow (อาหาร?) <br />
-          Pa (เห) <br />
-          Mookky (ที่พัก) <br />
+          Meow (Food Planner) <br />
+          Pa (Treasurer) <br />
+          Mookky (Accommodation Contact) <br />
           Mean (Entertainer) <br />
-          Kie <br />
-          Chaii <br />
+          Kie (Chief) <br />
+          Chaii (Planner) <br />
           Now (Entertainer) <br />
           Taeto (Entertainer) <br />
-          Boom <br />
+          Boom ( \w Online Meeting) <br />
           Ice ( \w Online Meeting)
         </p>
       </Container>

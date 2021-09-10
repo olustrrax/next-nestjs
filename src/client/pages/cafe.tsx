@@ -1,6 +1,4 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import styled from 'styled-components'
 import { LayoutTemplate, Container } from '../components/layout'
 
 export default function Cafe() {
@@ -35,6 +33,16 @@ export default function Cafe() {
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSeabearMeetalay%2Fposts%2F882222039167436&width=750&show_text=true&appId=197485464188864&height=982"
           width="750"
           height="982"
+          style={{ border: 'none', overflow: 'hidden' }}
+          scrolling="no"
+          frameBorder="0"
+          allowFullScreen={true}
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        ></iframe>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fgreatandgrandsweetdestination%2Fposts%2F397058572136758&width=750&show_text=true&appId=197485464188864&height=681"
+          width="750"
+          height="681"
           style={{ border: 'none', overflow: 'hidden' }}
           scrolling="no"
           frameBorder="0"
