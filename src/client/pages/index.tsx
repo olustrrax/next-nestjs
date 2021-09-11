@@ -6,34 +6,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1 className={styles.title}>Engineer Trip! (sea ver.)</h1>
+        <h1 className={styles.title}>Test</h1>
 
         <p className={styles.description}>
           Created by
           <code className={styles.code}>Mookky ٩꒰｡•◡•｡꒱۶♥</code>
         </p>
         <div className={styles.grid}>
-          <a href="restaurant" className={styles.card}>
-            <h2>Restaurants &rarr;</h2>
-            <p>Find the restaurant</p>
-          </a>
-
-          <a href="accommodation" className={styles.card}>
-            <h2>Accommodations &rarr;</h2>
-            <p>Find the accommodation</p>
-          </a>
-
-          <a href="cafe" className={styles.card}>
-            <h2>Café &rarr;</h2>
-            <p>Discover Cafés</p>
-          </a>
-
-          <a href="member" className={styles.card}>
-            <h2>Member List &rarr;</h2>
-            <p>ใครเทเป็น__</p>
-          </a>
-
-          {/* <a
+          <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
@@ -41,11 +21,11 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a> */}
+          </a>
         </div>
       </main>
 
-      {/* <footer className={styles.footer}>
+      <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -56,7 +36,7 @@ export default function Home() {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-      </footer> */}
+      </footer>
     </div>
   )
 }
